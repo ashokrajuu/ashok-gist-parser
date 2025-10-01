@@ -1,0 +1,23 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Git repository
+.git/
+.gitignore
+
+# Tests and local scripts
+test_Gists.py
+tests/
+*.pytest_cache/
+
+# Logs
+*.log
+
+# Docker files
+*.dockerignore
