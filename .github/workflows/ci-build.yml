@@ -8,7 +8,7 @@ on:
 
 env:
   #IMAGE_NAME = ${{ vars.DOCKERHUB_USERNAME }}/gists-app-parser
-  IMAGE_NAME: gists-app-parser
+  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/gists-app-parser
 
 jobs:
   Test:
