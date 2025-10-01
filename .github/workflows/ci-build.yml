@@ -1,10 +1,10 @@
 name: Test and Build Docker image
 
 on:
-  pull_requests:
-    branches: [stage]
+  pull_request:
+    branches: [main]
   push:
-    branches: [stage, main]
+    branches: [main]
 
 env:
   #IMAGE_NAME = ${{ vars.DOCKERHUB_USERNAME }}/gists-app-parser
